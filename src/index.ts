@@ -19,3 +19,5 @@ router.get("/api", (req:Request, res:Response): void => {
 app.listen(PORT, (): void => {
     console.log(`Server is running on http://localhost:${PORT}`)
 })
+
+//npm run dev
